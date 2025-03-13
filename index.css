@@ -1,0 +1,38 @@
+.container
+{
+    width: 60vh; /* view port height - its takes all browser from 60% */
+    height: 60vh;
+    /* background-color: red; */
+    margin: auto;
+    background-image: url(clock.png) ;
+    background-size: 100%;
+}
+#hour, #minute, #second{
+ position: absolute;
+ background-color: black;
+ border-radius: 11px;
+transform-origin: bottom;
+
+}
+
+#hour{
+    width: 0.6%;
+    left: 49.6%;
+    height: 13%;
+    top: 18%;
+   
+}
+
+#second {
+    width: 0.6%;
+    left: 49.6%;
+    height: 16%;
+    top: 15%;
+}
+
+#minute {
+    width: 0.6%;
+    left: 49.6%;
+    height: 13%;
+    top: 18%;
+}
